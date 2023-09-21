@@ -5,7 +5,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build ./src/index.html --public-url ./",
     "push-gh-page": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "staticFiles": {
