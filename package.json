@@ -5,7 +5,8 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "push-gh-page": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "staticFiles": {
     "staticPath": "src/static"
@@ -18,9 +19,10 @@
     "@types/react-dom": "^18.0.11",
     "buffer": "^5.7.1",
     "parcel": "^2.8.3",
-    "path-browserify": "^1.0.1",
     "parcel-reporter-static-files-copy": "^1.5.0",
-    "process": "^0.11.10"
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "push-dir": "^0.4.1"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
