@@ -1,0 +1,116 @@
+{
+  "defaultModel": "gpt-3.5-turbo",
+  "defaultType": "openai",
+  "defaultAuth": "api-key",
+  "defaultBase": "",
+  "defaultVersion": "",
+  "defaultKey": "",
+  "availableModels": [{
+          "value": "gpt-3.5-turbo",
+          "label": "GPT-3.5-TURBO (Default ChatGPT)"
+      }, {
+          "value": "gpt-3.5-turbo-0613",
+          "label": "GPT-3.5-TURBO-0613"
+      }, {
+          "value": "gpt-3.5-turbo-0301",
+          "label": "GPT-3.5-TURBO-0301 (Legacy)"
+      }, {
+          "value": "gpt-3.5-turbo-16k",
+          "label": "GPT-3.5-TURBO-16K"
+      }, {
+          "value": "gpt-3.5-turbo-16k-0613",
+          "label": "GPT-3.5-TURBO-16K-0613"
+      }, {
+          "value": "gpt-4",
+          "label": "GPT-4 (Limited Beta)"
+      }, {
+          "value": "gpt-4-0613",
+          "label": "GPT-4-0613 (Limited Beta)"
+      }, {
+          "value": "gpt-4-0314",
+          "label": "GPT-4-0314 (Limited Beta, Legacy)"
+      }, {
+          "value": "gpt-4-32k",
+          "label": "GPT-4-32K (Limited Beta)"
+      }, {
+          "value": "gpt-4-32k-0613",
+          "label": "GPT-4-32K-0613 (Limited Beta)"
+      }, {
+          "value": "gpt-4-32k-0314",
+          "label": "GPT-4-32K-0314 (Limited Beta, Legacy)"
+      }
+  ],
+  "writingCharacters": [{
+          "label": "Designer",
+          "value": "A professional, who focuses on the conceptual and schematic phases of design, producing preliminary drawings, 3D models, and visualizations, typically working under the guidance of a licensed architect."
+      }, {
+          "label": "Project Architect",
+          "value": "A professional that oversees the architectural details and integrity of a construction project, ensuring design feasibility, code compliance, and coordination with other design disciplines while maintaining the overall design vision."
+      }, {
+          "label": "Project Manager",
+          "value": "A professional responsible for planning, overseeing, and leading construction projects from inception to completion in the Architecture, Engineering, and Construction industry, ensuring they are completed on time, within scope, and budget, while diligently minimizing costly mistakes."
+      }, {
+          "label": "Life Hacker",
+          "value": "A person who uses unconventional methods to solve problems and increase productivity in everyday life."
+      }, {
+          "label": "Mindfulness Coach",
+          "value": "A professional who helps individuals develop mindfulness practices to reduce stress and improve well-being."
+      }, {
+          "label": "Marketing Expert",
+          "value": "A professional who develops and implements marketing strategies to promote products and services."
+      }, {
+          "label": "Tech Writer",
+          "value": "A professional who writes about technology and related topics for a variety of audiences."
+      }, {
+          "label": "Professional Chef",
+          "value": "A skilled culinary professional who prepares meals and manages kitchen operations."
+      }, {
+          "label": "Graphic Designer",
+          "value": "A professional who designs visual materials such as logos, brochures, and websites."
+      }, {
+          "label": "Academic Researcher",
+          "value": "A professional who conducts research and produces scholarly work in a particular academic field."
+      }
+  ],
+  "writingTones": [
+      "Assertive",
+      "Casual",
+      "Confident",
+      "Direct",
+      "Friendly",
+      "Informative",
+      "Professional",
+      "Sympathetic",
+      "Tactful"
+  ],
+  "writingStyles": [
+      "Conversational",
+      "Creative",
+      "Descriptive",
+      "Instructive",
+      "Metaphorical",
+      "Narrative",
+      "Persuasive",
+      "Technical"
+  ],
+  "writingFormats": [{
+          "value": "Answer as concise as possible",
+          "label": "Concise"
+      }, {
+          "value": "Think step-by-step",
+          "label": "Step-by-step"
+      }, {
+          "value": "Answer in painstaking detail",
+          "label": "Extreme Detail"
+      }, {
+          "value": "Explain like I'm five",
+          "label": "Explain Like I'm Five"
+      }
+  ],
+  "showDownloadLink": true,
+  "allowDarkModeToggle": true,
+  "allowSettingsModal": true,
+  "allowDatabaseModal": true,
+  "showTwitterLink": true,
+  "showFeedbackLink": true
+}
